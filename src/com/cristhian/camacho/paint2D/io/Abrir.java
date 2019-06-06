@@ -19,6 +19,13 @@ public class Abrir
 System.out.println( "System.getProperty(\"user.dir\")"+System.getProperty("user.dir") );
 String aux=System.getProperty("user.dir");
 
+
+       if( aux.contains("out\\production") )
+       {
+		   aux=aux.substring( 0 , aux.indexOf("out\\production") );
+		   aux+="ARCHIVOS_TXT";
+	   }
+       else
        if(aux.endsWith("bin"))	
        {
        		aux=aux.substring( 0 , aux.length()-"bin".length() );
