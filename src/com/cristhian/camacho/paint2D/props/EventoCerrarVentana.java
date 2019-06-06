@@ -20,7 +20,7 @@ public class EventoCerrarVentana extends WindowAdapter {
 
     public void windowClosing(WindowEvent e) {
         firePropertyChangeListenerPropertyChange(this, "close", null, nombre);
-        //System.exit(0);//se cuelgan los demas usuarios no se porque
+        System.exit(0);
     }
 
     public synchronized void addPropertyChangeListener(

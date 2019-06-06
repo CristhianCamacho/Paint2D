@@ -116,7 +116,7 @@ public void createMenubar()
     	{
     		//JFrame_Principal.handle.ventana.cerrar();
     		JFrame_Principal.handle.setVisible(false);   		
-    		//System.exit(0);//se cuelgan los demas usuarios no se porque
+    		System.exit(0);
     	}
     	
 	}

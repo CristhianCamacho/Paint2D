@@ -2,11 +2,9 @@ package com.cristhian.camacho.paint2D;
 
 
 import com.cristhian.camacho.paint2D.gui.JFrame_Principal;
+import com.cristhian.camacho.paint2D.props.EventoCerrarVentana;
 
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
-import java.awt.Dimension;
-import java.awt.Toolkit;
+import java.awt.*;
 
 public class Main {
 
@@ -21,15 +19,9 @@ public class Main {
         final JFrame_Principal jfp=new JFrame_Principal("CRIS");
         ventana_de_espera_PaintJ.setVisible(false);
 
-        jfp.addWindowListener(new WindowAdapter()
-        {
-            public void windowClosing(WindowEvent e)
-            {
-                //jfp.ventana.cerrar();
-            }
-        });
+        jfp.addWindowListener(new EventoCerrarVentana("CRIS"));
 
-        jfp.setBounds(10, 10, 800, 450);
+        jfp.setBounds(10, 10,  800, 450);
         jfp.setVisible(true);
     }
 

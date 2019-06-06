@@ -35,7 +35,8 @@ public class Area_de_dibujo extends JPanel implements Props
 
     public Color color_de_fondo=Color.white;
 
-    public String FIGURA_ACTUAL=NINGUNA;
+    //public String FIGURA_ACTUAL=NINGUNA;
+    public String FIGURA_ACTUAL = LINEA;
     public Font font_de_figura_actual=new Font("Arial",Font.PLAIN, 10 );
     public String texto_de_figura_actual="ninguna";
 

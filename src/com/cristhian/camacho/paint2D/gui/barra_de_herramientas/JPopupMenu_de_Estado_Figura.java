@@ -102,8 +102,10 @@ public class JPopupMenu_de_Estado_Figura extends JPopupMenu
                 
         if(s == COLOCAR_PUNTO)
         {
-        	Area_de_dibujo.handle.mSelectedFigura.set_estado_PUNTOS(COLOCAR_PUNTO);
-        	Area_de_dibujo.handle.setCursor(Cursor.getPredefinedCursor(Cursor.DEFAULT_CURSOR));
+        	if (Area_de_dibujo.handle.mSelectedFigura != null) {
+				Area_de_dibujo.handle.mSelectedFigura.set_estado_PUNTOS(COLOCAR_PUNTO);
+			}
+			Area_de_dibujo.handle.setCursor(Cursor.getPredefinedCursor(Cursor.DEFAULT_CURSOR));
         	JTextField_estado.handle.estado_actual.setText("Estado: "+COLOCAR_PUNTO);
         	
         Area_de_dibujo.handle.firePropertyChangeListenerPropertyChange(this, "JPopupMenu_de_Estado_Figura:set_estado_PUNTOS", null, COLOCAR_PUNTO);
