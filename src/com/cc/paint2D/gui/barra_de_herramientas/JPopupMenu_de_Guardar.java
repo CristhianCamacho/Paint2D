@@ -1,9 +1,9 @@
-package com.cristhian.camacho.paint2D.gui.barra_de_herramientas;
+package com.cc.paint2D.gui.barra_de_herramientas;
 
-import com.cristhian.camacho.paint2D.gui.JFrame_Principal;
-import com.cristhian.camacho.paint2D.io.Guardar;
-import com.cristhian.camacho.paint2D.io.Guardar_como_JPG;
-import com.cristhian.camacho.paint2D.props.Props;
+import com.cc.paint2D.gui.JFrame_Principal;
+import com.cc.paint2D.io.Guardar;
+import com.cc.paint2D.io.Guardar_como_JPG;
+import com.cc.paint2D.props.Props;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -13,7 +13,7 @@ import java.awt.event.ActionListener;
 public class JPopupMenu_de_Guardar extends JPopupMenu 
     implements ActionListener, Props
 {
-	//String GUARDAR="guardar";    
+	//String GUARDAR="guardar";
     
     //String GUARDAR_CHAT="guardar chat";    
     //String GUARDAR_GRAFICO="guardar grafico";

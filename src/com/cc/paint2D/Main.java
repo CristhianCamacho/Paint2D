@@ -1,8 +1,7 @@
-package com.cristhian.camacho.paint2D;
+package com.cc.paint2D;
 
-
-import com.cristhian.camacho.paint2D.gui.JFrame_Principal;
-import com.cristhian.camacho.paint2D.props.EventoCerrarVentana;
+import com.cc.paint2D.gui.JFrame_Principal;
+import com.cc.paint2D.props.EventoCerrarVentana;
 
 import java.awt.*;
 

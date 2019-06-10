@@ -1,8 +1,8 @@
-package com.cristhian.camacho.paint2D.gui;
+package com.cc.paint2D.gui;
 
-import com.cristhian.camacho.paint2D.gui.area_de_dibujo.Area_de_dibujo;
-import com.cristhian.camacho.paint2D.gui.barra_de_herramientas.Barra_de_herramientas;
-import com.cristhian.camacho.paint2D.gui.barra_de_menus.JMenuBar_barra;
+import com.cc.paint2D.gui.area_de_dibujo.Area_de_dibujo;
+import com.cc.paint2D.gui.barra_de_herramientas.Barra_de_herramientas;
+import com.cc.paint2D.gui.barra_de_menus.JMenuBar_barra;
 
 import javax.swing.*;
 import java.awt.*;

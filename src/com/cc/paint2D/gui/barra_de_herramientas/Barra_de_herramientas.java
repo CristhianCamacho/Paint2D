@@ -1,7 +1,7 @@
-package com.cristhian.camacho.paint2D.gui.barra_de_herramientas;
+package com.cc.paint2D.gui.barra_de_herramientas;
 
-import com.cristhian.camacho.paint2D.gui.area_de_dibujo.Area_de_dibujo;
-import com.cristhian.camacho.paint2D.props.Props;
+import com.cc.paint2D.gui.area_de_dibujo.Area_de_dibujo;
+import com.cc.paint2D.props.Props;
 
 import javax.swing.*;
 import javax.swing.event.ChangeEvent;

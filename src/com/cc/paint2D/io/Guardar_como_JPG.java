@@ -1,6 +1,6 @@
-package com.cristhian.camacho.paint2D.io;
+package com.cc.paint2D.io;
 
-import com.cristhian.camacho.paint2D.gui.JFrame_Principal;
+import com.cc.paint2D.gui.JFrame_Principal;
 import com.sun.image.codec.jpeg.JPEGCodec;
 import com.sun.image.codec.jpeg.JPEGEncodeParam;
 import com.sun.image.codec.jpeg.JPEGImageEncoder;

@@ -1,3 +1,3 @@
 cd out\production\Paint2D
 
-java com.cristhian.camacho.paint2D.Main
+java com.cc.paint2D.Main

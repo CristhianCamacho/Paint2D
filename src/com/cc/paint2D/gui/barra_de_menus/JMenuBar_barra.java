@@ -1,10 +1,10 @@
-package com.cristhian.camacho.paint2D.gui.barra_de_menus;
+package com.cc.paint2D.gui.barra_de_menus;
 
-import com.cristhian.camacho.paint2D.gui.JFrame_Principal;
-import com.cristhian.camacho.paint2D.props.Props;
-import com.cristhian.camacho.paint2D.io.Abrir;
-import com.cristhian.camacho.paint2D.io.Guardar;
-import com.cristhian.camacho.paint2D.io.Guardar_como_JPG;
+import com.cc.paint2D.gui.JFrame_Principal;
+import com.cc.paint2D.io.Abrir;
+import com.cc.paint2D.io.Guardar;
+import com.cc.paint2D.io.Guardar_como_JPG;
+import com.cc.paint2D.props.Props;
 
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;

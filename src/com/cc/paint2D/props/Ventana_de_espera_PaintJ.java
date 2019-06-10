@@ -1,4 +1,4 @@
-package com.cristhian.camacho.paint2D.props;
+package com.cc.paint2D.props;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;

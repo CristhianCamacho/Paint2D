@@ -1,7 +1,7 @@
-package com.cristhian.camacho.paint2D.gui.barra_de_herramientas;
+package com.cc.paint2D.gui.barra_de_herramientas;
 
-import com.cristhian.camacho.paint2D.io.Abrir;
-import com.cristhian.camacho.paint2D.props.Props;
+import com.cc.paint2D.io.Abrir;
+import com.cc.paint2D.props.Props;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

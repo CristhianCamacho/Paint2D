@@ -1,4 +1,4 @@
-package com.cristhian.camacho.paint2D.props;
+package com.cc.paint2D.props;
 
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;

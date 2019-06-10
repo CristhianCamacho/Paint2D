@@ -1,4 +1,4 @@
-package com.cristhian.camacho.paint2D.gui.barra_de_herramientas;
+package com.cc.paint2D.gui.barra_de_herramientas;
 import java.awt.BorderLayout;
 import javax.swing.JTextField;
 

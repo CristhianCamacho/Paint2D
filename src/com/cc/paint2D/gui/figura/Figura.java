@@ -1,4 +1,7 @@
-package com.cristhian.camacho.paint2D.gui.figura;
+package com.cc.paint2D.gui.figura;
+
+import com.cc.paint2D.gui.barra_de_herramientas.Barra_de_herramientas;
+import com.cc.paint2D.props.Props;
 
 import java.util.LinkedList;
 import java.util.Iterator;
@@ -15,9 +18,6 @@ import java.awt.Shape;
 import java.awt.Graphics2D;
 import java.awt.Font;
 import java.awt.AlphaComposite;
-
-import com.cristhian.camacho.paint2D.gui.barra_de_herramientas.Barra_de_herramientas;
-import com.cristhian.camacho.paint2D.props.Props;
 
 public class Figura implements Props
 {

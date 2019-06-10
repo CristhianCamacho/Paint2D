@@ -1,6 +1,6 @@
-package com.cristhian.camacho.paint2D.io;
+package com.cc.paint2D.io;
 
-import com.cristhian.camacho.paint2D.gui.JFrame_Principal;
+import com.cc.paint2D.gui.JFrame_Principal;
 
 import javax.swing.*;
 import javax.swing.filechooser.FileFilter;
